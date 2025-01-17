@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
+/* câu 1 */
 .icon-btn {
   padding-left: 8px;
 }
 .btn {
-  font-size: 14;
+  font-size: 14px;
   padding: 16px 30px;
   font-weight: 600;
   border: 2px solid #e6e3f1;
@@ -22,3 +24,29 @@
 .btn-radius-50 {
   border-radius: 50px;
 }
+
+/* câu 2 */
+.btn2 {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #e6e3f1;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #fff;
+}
+.btn-blue, .btn2:hover {
+  border-color: blue;
+  background-color: blue;
+  color: #fff;
+}
+.btn-green {
+  border-color: #7BA001;
+  background-color: #7BA001;
+  color: #fff;
+}
+.btn-green:hover {
+  background-color: #607d00;
+  border-color: #607d00;
+}
+
+/* câu 3 */
