@@ -50,3 +50,15 @@
 }
 
 /* câu 3 */
+.btn3 {
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #6B7385;
+}
+.btn3:hover {
+  background-color: blue;
+  color: #fff;
+}
