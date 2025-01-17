@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --blue: #2F57EF;
+  --xam: #e6e3f1;
+  --xam-dam: #6B7385;
+  --trang: #fff;
+}
+
 /* câu 1 */
 .icon-btn {
   padding-left: 8px;
@@ -10,13 +17,13 @@
   font-size: 14px;
   padding: 16px 30px;
   font-weight: 600;
-  border: 2px solid #e6e3f1;
+  border: 2px solid var(--xam);
   background-color: #fff;
 }
 .btn:hover {
-  background-color: blue;
-  border-color: blue;
-  color: #fff;
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: var(--trang);
 }
 .btn-radius-8 {
   border-radius: 8px;
@@ -29,20 +36,20 @@
 .btn2 {
   width: 80px;
   height: 80px;
-  border: 2px solid #e6e3f1;
+  border: 2px solid var(--xam);
   border-radius: 50%;
   font-size: 25px;
-  background-color: #fff;
+  background-color: var(--trang);
 }
 .btn-blue, .btn2:hover {
-  border-color: blue;
-  background-color: blue;
-  color: #fff;
+  border-color: var(--blue);
+  background-color: var(--blue);
+  color: var(--trang);
 }
 .btn-green {
   border-color: #7BA001;
   background-color: #7BA001;
-  color: #fff;
+  color: var(--trang);
 }
 .btn-green:hover {
   background-color: #607d00;
@@ -56,9 +63,26 @@
   border: none;
   border-radius: 50%;
   font-size: 16px;
-  color: #6B7385;
+  color: var(--xam-dam);
 }
 .btn3:hover {
-  background-color: blue;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--trang);
+}
+
+/* câu 4 */
+.btn4 {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  color: var(--xam-dam);
+}
+.btn4:hover {
+  background-color: var(--blue);
+  color: var(--trang);
+}
+.btn4.active {
+  background-color: var(--blue);
+  color: var(--trang);
 }
