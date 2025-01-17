@@ -7,6 +7,7 @@
   --xam: #e6e3f1;
   --xam-dam: #6B7385;
   --trang: #fff;
+  --xanh-la: #3eb75e;
 }
 
 /* câu 1 */
@@ -85,4 +86,22 @@
 .btn4.active {
   background-color: var(--blue);
   color: var(--trang);
+}
+
+/* câu 5 */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu>li {
+  margin-bottom: 8px;
+}
+.menu li::before {
+  content: "\f058";
+  color: var(--xanh-la);
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 20px;
 }
