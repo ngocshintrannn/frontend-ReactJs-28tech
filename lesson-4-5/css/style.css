@@ -9,6 +9,7 @@
   --trang: #fff;
   --xanh-la: #3eb75e;
   --xanh-nhat: #96d5fe;
+  --cam: #ffab19;
 }
 
 /* câu 1 */
@@ -108,12 +109,32 @@
 }
 
 /* câu 6 */
-table th, table td {
+.table6 .th6, .table6 .td6 {
   padding: 10px 20px;
 }
-table th {
+.table6 .th6 {
   background-color: var(--xanh-nhat);
 }
-table td {
+.table6 .td6 {
   border-bottom: 1px solid var(--xam);
 }
+
+/* câu 7 */
+.table7, .th7, .td7 {
+  border: 1px solid var(--xam);
+  border-collapse: collapse;
+}
+.table7 .th7, .table7 .td7 {
+  padding: 10px 20px;
+}
+.th7 {
+  background-color: var(--cam);
+}
+.tr7.active {
+  background-color: #f6f6f6;
+}
+.tr7:hover {
+  background-color: #ececec;
+}
+
+/* câu 8 */
