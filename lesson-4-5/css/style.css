@@ -8,6 +8,7 @@
   --xam-dam: #6B7385;
   --trang: #fff;
   --xanh-la: #3eb75e;
+  --xanh-nhat: #96d5fe;
 }
 
 /* câu 1 */
@@ -104,4 +105,15 @@
   font-weight: 900;
   margin-right: 10px;
   font-size: 20px;
+}
+
+/* câu 6 */
+table th, table td {
+  padding: 10px 20px;
+}
+table th {
+  background-color: var(--xanh-nhat);
+}
+table td {
+  border-bottom: 1px solid var(--xam);
 }
