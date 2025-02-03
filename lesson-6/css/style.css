@@ -1,0 +1,273 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --blue: #2f57ef;
+  --xam: #e6e3f1;
+  --xam-2: #eff1ff;
+  --xam-dam: #6b7385;
+  --trang-xam: #ebebeb;
+  --trang-nhat: #eeeeee;
+  --trang: #fff;
+  --trang-2: #F9F9FF;
+  --xanh-la: #3eb75e;
+  --xanh-nhat: #96d5fe;
+  --cam: #ffab19;
+  --den: #000;
+  --den-nhat: #192335;
+  --xanh-sieu-nhat: #cfe8ff;
+  --tim-dam: #231F40;
+  --tim: #525fe1;
+  --tim-2: #b966e7;
+  --tim-3: #a04ecd;
+  --tim-4: #e8dffc;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+/* cau 1 */
+.container {
+  width: 118rem;
+  margin: 0 auto;
+}
+.title {
+  font-size: 4.2rem;
+  text-align: center;
+  color: var(--den-nhat);
+  margin: 0 0 3.4rem 0;
+}
+.logo-brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid var(--xam);
+}
+.logo {
+  width: 25%;
+  padding: 3rem;
+  border: 1px solid var(--xam);
+}
+.logo img {
+  width: 100%;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Cau 2 */
+.section-2 {
+  background-color: var(--trang-nhat);
+  padding-bottom: 5rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.container-2 {
+  width: 118rem;
+  margin: 0 auto;
+}
+.title-2 {
+  font-size: 4.2rem;
+  text-align: center;
+  color: var(--den-nhat);
+  margin: 0 0 3.4rem 0;
+}
+.list-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-2 {
+  width: calc(25% - 6rem / 4);
+  margin-right: 2rem;
+  padding: 1.5rem;
+  background: var(--trang);
+  border-radius: 1.2rem;
+  text-align: center;
+}
+.inner-image-2 img {
+  width: 100%;
+  height: 15rem;
+  object-fit: contain;
+  border-radius: 0.8rem;
+}
+.inner-icon-2 {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin: -3.5rem auto 0 auto;
+  background-color: var(--trang);
+  border: 2px solid var(--blue);
+  position: relative;
+}
+.inner-icon-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+a {
+  text-decoration: none;
+}
+.inner-title-2 {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 1rem 0;
+}
+.inner-title-2 a {
+  color: var(--den-nhat);
+}
+.inner-button-2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--den-nhat);
+}
+.inner-button-2  i {
+  margin-left: 1rem;
+}
+.inner-title-2 a:hover, .inner-button-2:hover {
+  color: var(--blue);
+}
+
+/* cau 3 */
+.section-3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: var(--trang-2);
+  padding-bottom: 5rem;
+}
+.container-3 {
+  margin: 0 auto;
+ }
+.title-3 {
+  font-size: 4.2rem;
+  text-align: center;
+  color: var(--den-nhat);
+  margin: 0 0 3.4rem 0;
+}
+.list-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item-3 {
+  width: 28rem;
+  height: 8.4rem;
+  border: 2px solid var(--xam);
+  border-radius: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  display: inline-flex;
+  align-items: center;
+}
+.inner-image-3 img {
+  width: 8rem;
+  height: 8rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+.inner-content-3 {
+  width: calc(100% - 9rem);
+  height: auto;
+}
+.inner-title-3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.inner-title-3 a {
+  color: var(--den-nhat);
+}
+.inner-button-3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--den-nhat);
+}
+.inner-button-3  i {
+  margin-left: 1rem;
+}
+.inner-title-3 a:hover, .inner-button-3:hover {
+  color: var(--blue);
+}
+
+/* cau 4 */
+.section-4 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: var(--xam-2);
+}
+.container-4 {
+  max-width: 118rem;
+  margin: 0 auto;
+}
+.news-letter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 5rem;
+  position: relative;
+}
+.news-letter::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/cau-4/dots.svg);
+}
+.content-4 {
+  width: 50%;
+}
+.update-4 {
+  width: fit-content;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  border-radius: 100px;
+  color: var(--tim-2);
+  background-color: var(--tim-4);
+}
+.title-4 {
+  font-size: 3rem;
+}
+.text-4 {
+  font-size: 12px;
+  color: var(--xam-dam);
+}
+.form-4 {
+  width: 45%;
+  background: var(--trang);
+  border: 0.1rem solid var(--trang-nhat);
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+}
+#u-email {
+  font-size: 14px;
+  height: 50px;
+  color: var(--xam-dam);
+  background: var(--trang);
+  flex: 1;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+}
+#sub-btn {
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 20px;
+  color: var(--trang);
+  background-color: var(--tim-2);
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#sub-btn:hover {
+  background-color: var(--tim-3);
+}
